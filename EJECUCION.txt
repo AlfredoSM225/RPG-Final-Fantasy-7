@@ -1,0 +1,228 @@
+RPG POR TURNOS - FINAL FANTASY VII
+Patrones: Strategy, Factory Method y Decorator
+Salida en consola de 3 ejecuciones
+
+======================================================================
+EJECUCIÓN 1: Tifa (Peleador) + Brazalete de Mythril vs Soldado de Shinra
+======================================================================
+
+=== FINAL FANTASY VII: BATALLA EN MIDGAR ===
+Personajes: 1. Cloud (Guerrero)  2. Aerith (Mago)  3. Barret (Arquero)  4. Yuffie (Pícaro)  5. Tifa (Peleador)
+Personaje: 5
+Equipamiento: 1. Buster Sword  2. Brazalete de Mythril  3. Materia Veneno  4. Materia Regen  5. Corriente Vital
+Equipamiento (ej. 1,3,5 o vacío): 2
+Enemigos: 1. Soldado de Shinra  2. Guard Scorpion  3. Bahamut
+Enemigo: 1
+
+Héroe: Tifa (base) + Brazalete de Mythril
+ATK: 24 | DEF: 19 | VEL: 18 | HP: 110
+Enemigo: Soldado de Shinra | HP: 60
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Tifa (base) + Brazalete de Mythril usa AtaquePuno sobre Soldado de Shinra
+    Daño: 18 | Efecto: combo de puños
+    Soldado de Shinra HP: 60 -> 42
+    Resistencia: Soldado de Shinra tiene DEF 12
+Soldado de Shinra usa AtaquePunalada sobre Tifa
+    Daño: 1 | Efecto: puñalada
+    Tifa HP: 110 -> 109
+    Resistencia: Tifa tiene DEF 19
+
+--- TURNO 2 ---
+Tifa (base) + Brazalete de Mythril usa AtaquePuno sobre Soldado de Shinra
+    Daño: 18 | Efecto: combo de puños
+    Soldado de Shinra HP: 42 -> 24
+    Resistencia: Soldado de Shinra tiene DEF 12
+Soldado de Shinra usa AtaquePunalada sobre Tifa
+    Daño: 1 | Efecto: puñalada
+    Tifa HP: 109 -> 108
+    Resistencia: Tifa tiene DEF 19
+
+--- TURNO 3 ---
+Tifa (base) + Brazalete de Mythril usa AtaquePuno sobre Soldado de Shinra
+    Daño: 18 | Efecto: combo de puños
+    Soldado de Shinra HP: 24 -> 6
+    Resistencia: Soldado de Shinra tiene DEF 12
+Soldado de Shinra usa AtaquePunalada sobre Tifa
+    Daño: 1 | Efecto: puñalada
+    Tifa HP: 108 -> 107
+    Resistencia: Tifa tiene DEF 19
+
+--- TURNO 4 ---
+Tifa (base) + Brazalete de Mythril usa AtaquePuno sobre Soldado de Shinra
+    Daño: 36 | Efecto: combo de puños
+    Soldado de Shinra HP: 6 -> 0
+    ¡CRÍTICO! Tifa encontró un punto débil
+    Resistencia: Soldado de Shinra tiene DEF 12
+
+=== COMBATE FINALIZADO ===
+Ganador: Tifa (base) + Brazalete de Mythril (HP restante: 107)
+
+--- ESTADÍSTICAS FINALES ---
+Turnos: 4
+Tifa: daño total 90 | ataques 4 | críticos 1
+Soldado de Shinra: daño total 3 | ataques 3 | críticos 0
+
+*** ¡VICTORIA! Tifa derrotó a Soldado de Shinra ***
+
+¿Otra batalla? (s/n): s
+
+======================================================================
+EJECUCIÓN 2: Cloud (Guerrero) + Buster Sword vs Guard Scorpion
+======================================================================
+
+=== FINAL FANTASY VII: BATALLA EN MIDGAR ===
+Personajes: 1. Cloud (Guerrero)  2. Aerith (Mago)  3. Barret (Arquero)  4. Yuffie (Pícaro)  5. Tifa (Peleador)
+Personaje: 1
+Equipamiento: 1. Buster Sword  2. Brazalete de Mythril  3. Materia Veneno  4. Materia Regen  5. Corriente Vital
+Equipamiento (ej. 1,3,5 o vacío): 1
+Enemigos: 1. Soldado de Shinra  2. Guard Scorpion  3. Bahamut
+Enemigo: 2
+
+Héroe: Cloud (base) + Buster Sword
+ATK: 35 | DEF: 15 | VEL: 12 | HP: 120
+Enemigo: Guard Scorpion | HP: 150
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Cloud (base) + Buster Sword usa AtaqueEspada sobre Guard Scorpion
+    Daño: 26 | Efecto: corte de espada
+    Guard Scorpion HP: 150 -> 124
+    Resistencia: Guard Scorpion tiene DEF 18
+Guard Scorpion usa AtaqueFlecha sobre Cloud
+    Daño: 15 | Efecto: disparo
+    Cloud HP: 120 -> 105
+    Resistencia: Cloud tiene DEF 15
+
+--- TURNO 2 ---
+Cloud (base) + Buster Sword usa AtaqueEspada sobre Guard Scorpion
+    Daño: 52 | Efecto: corte de espada
+    Guard Scorpion HP: 124 -> 72
+    ¡CRÍTICO! Cloud encontró un punto débil
+    Resistencia: Guard Scorpion tiene DEF 18
+Guard Scorpion usa AtaqueFlecha sobre Cloud
+    Daño: 22 | Efecto: disparo
+    Cloud HP: 105 -> 83
+    ¡CRÍTICO! Guard Scorpion encontró un punto débil
+    Resistencia: Cloud tiene DEF 15
+
+--- TURNO 3 ---
+Cloud (base) + Buster Sword usa AtaqueEspada sobre Guard Scorpion
+    Daño: 26 | Efecto: corte de espada
+    Guard Scorpion HP: 72 -> 46
+    Resistencia: Guard Scorpion tiene DEF 18
+Guard Scorpion usa AtaqueFlecha sobre Cloud
+    Daño: 15 | Efecto: disparo
+    Cloud HP: 83 -> 68
+    Resistencia: Cloud tiene DEF 15
+
+--- TURNO 4 ---
+Cloud (base) + Buster Sword usa AtaqueEspada sobre Guard Scorpion
+    Daño: 26 | Efecto: corte de espada
+    Guard Scorpion HP: 46 -> 20
+    Resistencia: Guard Scorpion tiene DEF 18
+Guard Scorpion usa AtaqueFlecha sobre Cloud
+    Daño: 15 | Efecto: disparo
+    Cloud HP: 68 -> 53
+    Resistencia: Cloud tiene DEF 15
+
+--- TURNO 5 ---
+Cloud (base) + Buster Sword usa AtaqueEspada sobre Guard Scorpion
+    Daño: 26 | Efecto: corte de espada
+    Guard Scorpion HP: 20 -> 0
+    Resistencia: Guard Scorpion tiene DEF 18
+
+=== COMBATE FINALIZADO ===
+Ganador: Cloud (base) + Buster Sword (HP restante: 53)
+
+--- ESTADÍSTICAS FINALES ---
+Turnos: 5
+Cloud: daño total 156 | ataques 5 | críticos 1
+Guard Scorpion: daño total 67 | ataques 4 | críticos 1
+
+*** ¡VICTORIA! Cloud derrotó a Guard Scorpion ***
+
+¿Otra batalla? (s/n): s
+
+======================================================================
+EJECUCIÓN 3: Yuffie (Pícaro) sin equipamiento vs Bahamut
+======================================================================
+
+=== FINAL FANTASY VII: BATALLA EN MIDGAR ===
+Personajes: 1. Cloud (Guerrero)  2. Aerith (Mago)  3. Barret (Arquero)  4. Yuffie (Pícaro)  5. Tifa (Peleador)
+Personaje: 4
+Equipamiento: 1. Buster Sword  2. Brazalete de Mythril  3. Materia Veneno  4. Materia Regen  5. Corriente Vital
+Equipamiento (ej. 1,3,5 o vacío): 
+Enemigos: 1. Soldado de Shinra  2. Guard Scorpion  3. Bahamut
+Enemigo: 3
+
+Héroe: Yuffie (base)
+ATK: 18 | DEF: 8 | VEL: 22 | HP: 90
+Enemigo: Bahamut | HP: 180
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Yuffie (base) usa AtaquePunalada sobre Bahamut
+    Daño: 1 | Efecto: puñalada
+    Bahamut HP: 180 -> 179
+    Resistencia: Bahamut tiene DEF 20
+Bahamut usa AtaqueHechizo sobre Yuffie
+    Daño: 18 | Efecto: hechizo
+    Yuffie HP: 90 -> 72
+    Resistencia: Yuffie tiene DEF 8
+
+--- TURNO 2 ---
+Yuffie (base) usa AtaquePunalada sobre Bahamut
+    Daño: 1 | Efecto: puñalada
+    Bahamut HP: 179 -> 178
+    Resistencia: Bahamut tiene DEF 20
+Bahamut usa AtaqueHechizo sobre Yuffie
+    Daño: 18 | Efecto: hechizo
+    Yuffie HP: 72 -> 54
+    Resistencia: Yuffie tiene DEF 8
+
+--- TURNO 3 ---
+Yuffie (base) usa AtaquePunalada sobre Bahamut
+    Daño: 1 | Efecto: puñalada
+    Bahamut HP: 178 -> 177
+    Resistencia: Bahamut tiene DEF 20
+Bahamut usa AtaqueHechizo sobre Yuffie
+    Daño: 18 | Efecto: hechizo
+    Yuffie HP: 54 -> 36
+    Resistencia: Yuffie tiene DEF 8
+
+--- TURNO 4 ---
+Yuffie (base) usa AtaquePunalada sobre Bahamut
+    Daño: 1 | Efecto: puñalada
+    Bahamut HP: 177 -> 176
+    Resistencia: Bahamut tiene DEF 20
+Bahamut usa AtaqueHechizo sobre Yuffie
+    Daño: 18 | Efecto: hechizo
+    Yuffie HP: 36 -> 18
+    Resistencia: Yuffie tiene DEF 8
+
+--- TURNO 5 ---
+Yuffie (base) usa AtaquePunalada sobre Bahamut
+    Daño: 1 | Efecto: puñalada
+    Bahamut HP: 176 -> 175
+    Resistencia: Bahamut tiene DEF 20
+Bahamut usa AtaqueHechizo sobre Yuffie
+    Daño: 18 | Efecto: hechizo
+    Yuffie HP: 18 -> 0
+    Resistencia: Yuffie tiene DEF 8
+
+=== COMBATE FINALIZADO ===
+Ganador: Bahamut (HP restante: 175)
+
+--- ESTADÍSTICAS FINALES ---
+Turnos: 5
+Yuffie: daño total 5 | ataques 5 | críticos 0
+Bahamut: daño total 90 | ataques 5 | críticos 0
+
+*** GAME OVER: Yuffie cayó en combate ***
+
+¿Otra batalla? (s/n):
